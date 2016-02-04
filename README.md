@@ -27,14 +27,14 @@ Because the demo use Johnny-Five library you need to first install Arduino IDE. 
 
 1. Download Arduino IDE from the [site](https://www.arduino.cc/en/Main/Software) and install it.
 2. Run Arduion IDE and from menu "Tools->Board" list select Aruduino/Genuino UNO.
-![Screen Shot 2016-01-29 at 14.20.44.png](https://bitbucket.org/repo/5r7n77/images/458790913-Screen%20Shot%202016-01-29%20at%2014.20.44.png)
+![menu_board](docs/menu_board.png)
 3. Connect [usb cable](https://store.arduino.cc/product/M000006) to your computer and microcontroller.
 4. Select from menu "Tools->Ports" a port which you use for communication with arduino.
-![Screen Shot 2016-01-29 at 14.28.08.png](https://bitbucket.org/repo/5r7n77/images/2173095365-Screen%20Shot%202016-01-29%20at%2014.28.08.png)
+![menu_ports](docs/menu_ports.png)
 5. From menu select "StandardFirmata" sketch. File->Examples->Firmata->StandardFirmata
-![Screen Shot 2016-01-29 at 14.32.25.png](https://bitbucket.org/repo/5r7n77/images/2613070257-Screen%20Shot%202016-01-29%20at%2014.32.25.png)
+![menu_standardfirmata](docs/menu_standardfirmata.png)
 6. When is opened, upload the sketch.
-![Screen Shot 2016-01-29 at 14.35.14.png](https://bitbucket.org/repo/5r7n77/images/296670973-Screen%20Shot%202016-01-29%20at%2014.35.14.png)
+![menu_upload](docs/menu_upload.png)
 Now you can close Arduino IDE and use Johnny-Five library.
 
 ### Arduino docker swarm demo ###
